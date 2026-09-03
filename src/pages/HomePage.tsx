@@ -5,7 +5,7 @@ function HomePage() {
     <div>
       <h1>Welcome to the Home Page</h1>
       <Button>Get Started</Button>
-      <p>This is the main landing page of our application.</p>
+      <p>This is the main landing page of my to be portfolio website.</p>
     </div>
   );
 }
