@@ -1,4 +1,6 @@
-export const fr = {
+import type { Translations } from './types';
+
+export const fr: Translations = {
   home: {
     title: 'Bienvenue sur mon site web',
     description:
@@ -9,5 +11,6 @@ export const fr = {
     projects: 'Projets',
     experience: 'Expérience',
     contact: 'Contact',
+    language: 'English/French',
   },
 };

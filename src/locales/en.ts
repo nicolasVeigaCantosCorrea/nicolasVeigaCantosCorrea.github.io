@@ -1,4 +1,6 @@
-export const en = {
+import type { Translations } from '@/locales/types';
+
+export const en: Translations = {
   navbar: {
     home: 'Home',
     projects: 'Projects',
