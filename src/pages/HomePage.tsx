@@ -1,11 +1,12 @@
-import { Button } from '@/components/ui/Button';
+import { useLanguage } from '@/context/useLanguage';
 
 function HomePage() {
+  const { t } = useLanguage();
+
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
-      <Button>Get Started</Button>
-      <p>This is the main landing page of my to be portfolio website.</p>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <h1>{t.home.title}</h1>
+      <p>{t.home.description}</p>
     </div>
   );
 }
