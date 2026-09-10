@@ -6,7 +6,11 @@ export type Translations = {
     contact: string;
     language: string;
   };
-
+  notFound: {
+    title: string;
+    description: string;
+    button: string;
+  };
   home: {
     title: string;
     description: string;

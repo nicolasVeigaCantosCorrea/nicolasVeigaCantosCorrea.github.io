@@ -8,6 +8,11 @@ export const en: Translations = {
     contact: 'Contact',
     language: 'English/French',
   },
+  notFound: {
+    title: 'Page Not Found',
+    description: 'The page you are looking for does not exist.',
+    button: 'Go back to Home',
+  },
   home: {
     title: 'Welcome to my website',
     description:

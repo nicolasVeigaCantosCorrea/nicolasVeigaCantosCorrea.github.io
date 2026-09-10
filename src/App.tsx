@@ -5,9 +5,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <Navbar />
-      <AppRouter />
-      <Footer />
+      <div className="min-h-screen">
+        <Navbar />
+        <AppRouter />
+        <Footer />
+      </div>
     </>
   );
 }
